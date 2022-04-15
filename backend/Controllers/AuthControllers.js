@@ -20,7 +20,7 @@ const registerUser = asyncHandler(async (req, res) => {
         })
     } else {
         res.status(400)
-        throw new Error("new error occured")
+        throw new Error("new error")
     }
 
 })
